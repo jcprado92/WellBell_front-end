@@ -1,5 +1,5 @@
 import React from 'react'
-import 
+import {reminderType} from "./UserIntakeForm"
 
 export default function Dashboard({reminderType}) {
   console.log(reminderType)

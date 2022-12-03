@@ -5,7 +5,7 @@ const API = process.env.REACT_APP_API_URL;
 
 export default function UserIntakeForm() {
 
-const[reminderType, setReminderType]= useState("Health")
+const[reminderType, setReminderType]= useState("")
 const [toggle, setToggle] = useState(false);
 const [bells, setBells] = useState([]);
 

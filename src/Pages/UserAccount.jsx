@@ -2,9 +2,11 @@ import React from 'react';
 import Dashboard from '../Components/UserInput/Dashboard';
 import SideNav from '../Components/SideNav';
 import { UserAuth } from '../context/AuthContext';
+import { retrieveToken } from '../Firebase/firebase';
 
 const Account = () => {
   const { logOut, user } = UserAuth();
+retrieveToken()
 
   const handleSignOut = async () => {
     try {
