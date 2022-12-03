@@ -1,3 +1,5 @@
+import { getToken } from 'firebase/messaging';
+import { getMessaging } from 'firebase/messaging';
 /* eslint-disable */
 
 // // Create and deploy your first functions
@@ -14,7 +16,24 @@
     // The Firebase Admin SDK to access Firestore.
     const admin = require('firebase-admin');
     admin.initializeApp();
-    const FCMToken = "c6zwDRqw5wKQH2JdNlnN90:APA91bGvgi-mMIc9mFQLEJV1YgjKK5uf1Z1kX7qd2d5Z8WFLDPMO8E7QC9bdSr-ugVDlEIYsQlrGeBVjxMrytx9tSaiCQl6_2TitQwkIkBqqD363y6t1GvxSWGv5yYTIBjbRSpNF77WQ"
+    const messaging = getMessaging();
+
+    export const retrieveToken = () => {
+        return getToken(messaging, {vapidKey: 'BP2vnUBO-X6Aw6KNtsS9Pst64XUuK_Pdscd70wrrylC_-g-oGW7nABQ6P-Mdr32jBL8isvGGB4Hn2MSb73DzwVk'}).then((currentToken) => {
+          if (currentToken) {
+            console.log('current token for client: ', currentToken);
+            // Track the token -> client mapping, by sending to backend server
+            // show on the UI that permission is secured
+          } else {
+            console.log('No registration token available. Request permission to generate one.');
+            // shows on the UI that permission is required 
+          }
+        }).catch((err) => {
+          console.log('An error occurred while retrieving token. ', err);
+          // catch error while creating client token
+        });
+      }
+    const FCMToken = currentToken
     
     const message = "whateverrr"
 

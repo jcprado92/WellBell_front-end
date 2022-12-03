@@ -1,40 +1,40 @@
-[debug] [2022-12-03T17:03:03.476Z] ----------------------------------------------------------------------
-[debug] [2022-12-03T17:03:03.477Z] Command:       /opt/homebrew/Cellar/node/19.2.0/bin/node /opt/homebrew/bin/firebase emulators:start
-[debug] [2022-12-03T17:03:03.477Z] CLI Version:   11.16.1
-[debug] [2022-12-03T17:03:03.477Z] Platform:      darwin
-[debug] [2022-12-03T17:03:03.477Z] Node Version:  v19.2.0
-[debug] [2022-12-03T17:03:03.477Z] Time:          Sat Dec 03 2022 12:03:03 GMT-0500 (Eastern Standard Time)
-[debug] [2022-12-03T17:03:03.478Z] ----------------------------------------------------------------------
+[debug] [2022-12-03T18:55:08.785Z] ----------------------------------------------------------------------
+[debug] [2022-12-03T18:55:08.786Z] Command:       /opt/homebrew/Cellar/node/19.2.0/bin/node /opt/homebrew/bin/firebase emulators:start
+[debug] [2022-12-03T18:55:08.787Z] CLI Version:   11.16.1
+[debug] [2022-12-03T18:55:08.787Z] Platform:      darwin
+[debug] [2022-12-03T18:55:08.787Z] Node Version:  v19.2.0
+[debug] [2022-12-03T18:55:08.787Z] Time:          Sat Dec 03 2022 13:55:08 GMT-0500 (Eastern Standard Time)
+[debug] [2022-12-03T18:55:08.787Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2022-12-03T17:03:03.520Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2022-12-03T17:03:03.520Z] > authorizing via signed-in user (zaneahmed4@gmail.com)
+[debug] [2022-12-03T18:55:08.828Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-03T18:55:08.829Z] > authorizing via signed-in user (zaneahmed4@gmail.com)
 [info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
-[debug] [2022-12-03T17:03:03.703Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2022-12-03T17:03:03.704Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
-[debug] [2022-12-03T17:03:03.707Z] [hub] writing locator at /var/folders/sm/nyhs1sdn6sgdz8t5gxhvc7wc0000gn/T/hub-wellbell-4a40d.json
-[debug] [2022-12-03T17:03:03.837Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2022-12-03T17:03:03.837Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
-[debug] [2022-12-03T17:03:03.837Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[debug] [2022-12-03T18:55:09.010Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-03T18:55:09.010Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2022-12-03T18:55:09.014Z] [hub] writing locator at /var/folders/sm/nyhs1sdn6sgdz8t5gxhvc7wc0000gn/T/hub-wellbell-4a40d.json
+[debug] [2022-12-03T18:55:09.143Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-03T18:55:09.144Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-03T18:55:09.144Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
 [warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
 [warn] ⚠  Your requested "node" version "16" doesn't match your global version "19". Using node@19 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Your requested \"node\" version \"16\" doesn't match your global version \"19\". Using node@19 from host."}}
-[debug] [2022-12-03T17:03:03.841Z] defaultcredentials: writing to file /Users/zane/.config/firebase/zaneahmed4_gmail_com_application_default_credentials.json
-[debug] [2022-12-03T17:03:03.846Z] Setting GAC to /Users/zane/.config/firebase/zaneahmed4_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/zane/.config/firebase/zaneahmed4_gmail_com_application_default_credentials.json"}}
-[debug] [2022-12-03T17:03:03.847Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wellbell-4a40d/adminSdkConfig [none]
-[debug] [2022-12-03T17:03:04.252Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wellbell-4a40d/adminSdkConfig 200
-[debug] [2022-12-03T17:03:04.252Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/wellbell-4a40d/adminSdkConfig {"projectId":"wellbell-4a40d","databaseURL":"https://wellbell-4a40d-default-rtdb.firebaseio.com","storageBucket":"wellbell-4a40d.appspot.com"}
-[debug] [2022-12-03T17:03:04.276Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
-[debug] [2022-12-03T17:03:04.276Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
-[debug] [2022-12-03T17:03:04.276Z] Starting Emulator UI with command {"binary":"node","args":["/Users/zane/.cache/firebase/emulators/ui-v1.11.1/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/zane/.cache/firebase/emulators/ui-v1.11.1/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[debug] [2022-12-03T18:55:09.146Z] defaultcredentials: writing to file /Users/zane/.config/firebase/zaneahmed4_gmail_com_application_default_credentials.json
+[debug] [2022-12-03T18:55:09.150Z] Setting GAC to /Users/zane/.config/firebase/zaneahmed4_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/zane/.config/firebase/zaneahmed4_gmail_com_application_default_credentials.json"}}
+[debug] [2022-12-03T18:55:09.151Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wellbell-4a40d/adminSdkConfig [none]
+[debug] [2022-12-03T18:55:09.507Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wellbell-4a40d/adminSdkConfig 200
+[debug] [2022-12-03T18:55:09.507Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/wellbell-4a40d/adminSdkConfig {"projectId":"wellbell-4a40d","databaseURL":"https://wellbell-4a40d-default-rtdb.firebaseio.com","storageBucket":"wellbell-4a40d.appspot.com"}
+[debug] [2022-12-03T18:55:09.526Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-12-03T18:55:09.527Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-12-03T18:55:09.527Z] Starting Emulator UI with command {"binary":"node","args":["/Users/zane/.cache/firebase/emulators/ui-v1.11.1/server/server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/zane/.cache/firebase/emulators/ui-v1.11.1/server/server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
 [info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
-[debug] [2022-12-03T17:03:04.360Z] Web / API server started at 127.0.0.1:4000
+[debug] [2022-12-03T18:55:09.614Z] Web / API server started at 127.0.0.1:4000
  {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
-[debug] [2022-12-03T17:03:04.360Z] Web / API server started at ::1:4000
+[debug] [2022-12-03T18:55:09.614Z] Web / API server started at ::1:4000
  {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
 [info] i  functions: Watching "/Users/zane/Desktop/WellBell_front-end/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/zane/Desktop/WellBell_front-end/functions\" for Cloud Functions..."}}
-[debug] [2022-12-03T17:03:04.538Z] Validating nodejs source
+[debug] [2022-12-03T18:55:09.789Z] Validating nodejs source
 [warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
 [warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
-[debug] [2022-12-03T17:03:05.283Z] > [functions] package.json contents: {
+[debug] [2022-12-03T18:55:10.434Z] > [functions] package.json contents: {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
   "scripts": {
@@ -60,18 +60,18 @@
   },
   "private": true
 }
-[debug] [2022-12-03T17:03:05.283Z] Building nodejs source
-[debug] [2022-12-03T17:03:05.283Z] Analyzing nodejs backend spec
-[debug] [2022-12-03T17:03:05.285Z] Could not find functions.yaml. Must use http discovery
-[debug] [2022-12-03T17:03:05.375Z] Serving at port 9005
+[debug] [2022-12-03T18:55:10.434Z] Building nodejs source
+[debug] [2022-12-03T18:55:10.434Z] Analyzing nodejs backend spec
+[debug] [2022-12-03T18:55:10.436Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-12-03T18:55:10.519Z] Serving at port 9005
 
-[debug] [2022-12-03T17:03:05.401Z] Got response from /__/functions.yaml {"endpoints":{"sendHttpPushNotification":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"sendHttpPushNotification"},"sendListenerPushNotification":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/google.firebase.database/eventTypes/ref.write","eventFilters":{"resource":"projects/_/instances/wellbell-4a40d-default-rtdb/refs/sendMessage/{userId}"},"retry":false},"labels":{},"entryPoint":"sendListenerPushNotification"},"makeUppercase":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/wellbell-4a40d/databases/(default)/documents/messages/{documentId}"},"retry":false},"labels":{},"entryPoint":"makeUppercase"}},"specVersion":"v1alpha1","requiredAPIs":[]}
-[debug] [2022-12-03T17:03:05.406Z] shutdown requested via /__/quitquitquit
+[debug] [2022-12-03T18:55:10.525Z] Got response from /__/functions.yaml Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module
+[debug] [2022-12-03T18:55:10.526Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:
+     ... rom function source: SyntaxError: Cannot use import statement ou ... 
+                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module\n\u0000","position":61,"line":0,"column":61},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 62:\n     ... rom function source: SyntaxError: Cannot use import statement ou ... \n                                         ^"}
+[debug] [2022-12-03T18:55:10.530Z] shutdown requested via /__/quitquitquit
 
-[info] ✔  functions: Loaded functions definitions from source: sendHttpPushNotification, sendListenerPushNotification, makeUppercase. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: sendHttpPushNotification, sendListenerPushNotification, makeUppercase."}}
-[info] ✔  functions[us-central1-sendHttpPushNotification]: http function initialized (http://127.0.0.1:5001/wellbell-4a40d/us-central1/sendHttpPushNotification). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/wellbell-4a40d/us-central1/sendHttpPushNotification)."}}
-[info] i  functions[us-central1-sendListenerPushNotification]: function ignored because the database emulator does not exist or is not running. {"metadata":{"emulator":{"name":"functions"},"message":"function ignored because the database emulator does not exist or is not running."}}
-[info] i  functions[us-central1-makeUppercase]: function ignored because the firestore emulator does not exist or is not running. {"metadata":{"emulator":{"name":"functions"},"message":"function ignored because the firestore emulator does not exist or is not running."}}
+[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: SyntaxError: Cannot use import statement outside a module"}}
 [info] 
 ┌─────────────────────────────────────────────────────────────┐
 │ ✔  All emulators ready! It is now safe to connect your app. │
@@ -88,187 +88,3 @@
 
 Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
  
-[debug] [2022-12-03T17:03:25.089Z] [work-queue] {"queueLength":1,"workRunningCount":0}
-[debug] [2022-12-03T17:03:25.089Z] [work-queue] {"queueLength":0,"workRunningCount":1}
-[debug] [2022-12-03T17:03:25.090Z] Accepted request GET /wellbell-4a40d/us-central1/sendHttpPushNotification --> us-central1-sendHttpPushNotification
-[debug] [2022-12-03T17:03:25.096Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2022-12-03T17:03:25.097Z] [functions] Got req.url=/wellbell-4a40d/us-central1/sendHttpPushNotification, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/wellbell-4a40d/us-central1/sendHttpPushNotification, mapping to path=/"}}
-[debug] [2022-12-03T17:03:25.101Z] [worker-pool] addWorker(us-central1-sendHttpPushNotification) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-sendHttpPushNotification)"}}
-[debug] [2022-12-03T17:03:25.101Z] [worker-pool] Adding worker with key us-central1-sendHttpPushNotification, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-sendHttpPushNotification, total=1"}}
-[debug] [2022-12-03T17:03:25.456Z] [runtime-status] [4712] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4712] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-admin/lib/index.js\"}"}}
-[debug] [2022-12-03T17:03:25.456Z] [runtime-status] [4712] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4712] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-12-03T17:03:25.457Z] [runtime-status] [4712] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4712] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
-[debug] [2022-12-03T17:03:25.457Z] [runtime-status] [4712] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4712] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-12-03T17:03:25.475Z] [runtime-status] [4712] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4712] Checked functions.config() {\"config\":{}}"}}
-[debug] [2022-12-03T17:03:25.476Z] [runtime-status] [4712] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4712] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
-[debug] [2022-12-03T17:03:25.476Z] [runtime-status] [4712] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4712] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-12-03T17:03:25.476Z] [runtime-status] [4712] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4712] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-admin/lib/index.js\"}"}}
-[debug] [2022-12-03T17:03:25.476Z] [runtime-status] [4712] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4712] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-12-03T17:03:25.476Z] [runtime-status] [4712] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4712] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
-[debug] [2022-12-03T17:03:25.477Z] [runtime-status] [4712] initializeApp(DEFAULT) {"storageBucket":"wellbell-4a40d.appspot.com","databaseURL":"https://wellbell-4a40d-default-rtdb.firebaseio.com","projectId":"wellbell-4a40d"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4712] initializeApp(DEFAULT) {\"storageBucket\":\"wellbell-4a40d.appspot.com\",\"databaseURL\":\"https://wellbell-4a40d-default-rtdb.firebaseio.com\",\"projectId\":\"wellbell-4a40d\"}"}}
-[debug] [2022-12-03T17:03:25.481Z] [runtime-status] [4712] Functions runtime initialized. {"cwd":"/Users/zane/Desktop/WellBell_front-end/functions","node_version":"19.2.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4712] Functions runtime initialized. {\"cwd\":\"/Users/zane/Desktop/WellBell_front-end/functions\",\"node_version\":\"19.2.0\"}"}}
-[debug] [2022-12-03T17:03:25.481Z] [runtime-status] [4712] Listening to port: /var/folders/sm/nyhs1sdn6sgdz8t5gxhvc7wc0000gn/T/fire_emu_8fc51a59d33381ae.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4712] Listening to port: /var/folders/sm/nyhs1sdn6sgdz8t5gxhvc7wc0000gn/T/fire_emu_8fc51a59d33381ae.sock"}}
-[debug] [2022-12-03T17:03:25.511Z] [worker-us-central1-sendHttpPushNotification-95c6f4b4-fd68-4f8d-8460-b4ff306c2531]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-sendHttpPushNotification-95c6f4b4-fd68-4f8d-8460-b4ff306c2531]: IDLE"}}
-[debug] [2022-12-03T17:03:25.511Z] [worker-pool] submitRequest(triggerId=us-central1-sendHttpPushNotification) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-sendHttpPushNotification)"}}
-[debug] [2022-12-03T17:03:25.511Z] [worker-us-central1-sendHttpPushNotification-95c6f4b4-fd68-4f8d-8460-b4ff306c2531]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-sendHttpPushNotification-95c6f4b4-fd68-4f8d-8460-b4ff306c2531]: BUSY"}}
-[info] i  functions: Beginning execution of "sendHttpPushNotification" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"Beginning execution of \"sendHttpPushNotification\""}}
-[info] >  Successfully sent message: projects/wellbell-4a40d/messages/6c9bfe80-4b82-4b1b-a7d6-8920ce683607 {"user":"Successfully sent message: projects/wellbell-4a40d/messages/6c9bfe80-4b82-4b1b-a7d6-8920ce683607","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"\u001b[90m> \u001b[39m Successfully sent message: projects/wellbell-4a40d/messages/6c9bfe80-4b82-4b1b-a7d6-8920ce683607"}}
-[warn] ⚠  functions: Your function timed out after ~60s. To configure this timeout, see
-      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
-[warn] ⚠  Your function was killed because it raised an unhandled error. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"Your function was killed because it raised an unhandled error."}}
-[debug] [2022-12-03T17:03:30.521Z] [work-queue] {"queueLength":0,"workRunningCount":0}
-[debug] [2022-12-03T17:03:30.522Z] [worker-us-central1-sendHttpPushNotification-95c6f4b4-fd68-4f8d-8460-b4ff306c2531]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-sendHttpPushNotification-95c6f4b4-fd68-4f8d-8460-b4ff306c2531]: exited"}}
-[debug] [2022-12-03T17:03:30.522Z] [worker-us-central1-sendHttpPushNotification-95c6f4b4-fd68-4f8d-8460-b4ff306c2531]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-sendHttpPushNotification-95c6f4b4-fd68-4f8d-8460-b4ff306c2531]: FINISHED"}}
-[debug] [2022-12-03T17:04:14.671Z] File /Users/zane/Desktop/WellBell_front-end/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/zane/Desktop/WellBell_front-end/functions/index.js changed, reloading triggers"}}
-[debug] [2022-12-03T17:04:15.673Z] Validating nodejs source
-[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
-[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
-[debug] [2022-12-03T17:04:16.322Z] > [functions] package.json contents: {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
-  "scripts": {
-    "lint": "eslint .",
-    "serve": "firebase emulators:start --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
-  },
-  "engines": {
-    "node": "16"
-  },
-  "main": "index.js",
-  "dependencies": {
-    "firebase-admin": "^10.0.2",
-    "firebase-functions": "^3.18.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.9.0",
-    "eslint-config-google": "^0.14.0",
-    "firebase-functions-test": "^0.2.0"
-  },
-  "private": true
-}
-[debug] [2022-12-03T17:04:16.322Z] Building nodejs source
-[debug] [2022-12-03T17:04:16.322Z] Analyzing nodejs backend spec
-[debug] [2022-12-03T17:04:16.322Z] Could not find functions.yaml. Must use http discovery
-[debug] [2022-12-03T17:04:16.403Z] Serving at port 9005
-
-[debug] [2022-12-03T17:04:16.426Z] Got response from /__/functions.yaml {"endpoints":{"sendHttpPushNotification":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"sendHttpPushNotification"},"sendListenerPushNotification":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/google.firebase.database/eventTypes/ref.write","eventFilters":{"resource":"projects/_/instances/wellbell-4a40d-default-rtdb/refs/sendMessage/{userId}"},"retry":false},"labels":{},"entryPoint":"sendListenerPushNotification"},"makeUppercase":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/wellbell-4a40d/databases/(default)/documents/messages/{documentId}"},"retry":false},"labels":{},"entryPoint":"makeUppercase"}},"specVersion":"v1alpha1","requiredAPIs":[]}
-[debug] [2022-12-03T17:04:16.429Z] shutdown requested via /__/quitquitquit
-
-[info] ✔  functions: Loaded functions definitions from source: sendHttpPushNotification, sendListenerPushNotification, makeUppercase. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: sendHttpPushNotification, sendListenerPushNotification, makeUppercase."}}
-[debug] [2022-12-03T17:04:36.351Z] File /Users/zane/Desktop/WellBell_front-end/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/zane/Desktop/WellBell_front-end/functions/index.js changed, reloading triggers"}}
-[debug] [2022-12-03T17:04:36.452Z] File /Users/zane/Desktop/WellBell_front-end/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/zane/Desktop/WellBell_front-end/functions/index.js changed, reloading triggers"}}
-[debug] [2022-12-03T17:04:37.453Z] Validating nodejs source
-[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
-[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
-[debug] [2022-12-03T17:04:38.491Z] > [functions] package.json contents: {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
-  "scripts": {
-    "lint": "eslint .",
-    "serve": "firebase emulators:start --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
-  },
-  "engines": {
-    "node": "16"
-  },
-  "main": "index.js",
-  "dependencies": {
-    "firebase-admin": "^10.0.2",
-    "firebase-functions": "^3.18.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.9.0",
-    "eslint-config-google": "^0.14.0",
-    "firebase-functions-test": "^0.2.0"
-  },
-  "private": true
-}
-[debug] [2022-12-03T17:04:38.491Z] Building nodejs source
-[debug] [2022-12-03T17:04:38.491Z] Analyzing nodejs backend spec
-[debug] [2022-12-03T17:04:38.492Z] Could not find functions.yaml. Must use http discovery
-[debug] [2022-12-03T17:04:38.576Z] Serving at port 9005
-
-[debug] [2022-12-03T17:04:38.714Z] Got response from /__/functions.yaml Failed to generate manifest from function source: ReferenceError: Cannot access 'FCMToken' before initialization
-[debug] [2022-12-03T17:04:38.715Z] Failed to parse functions.yamlincomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:
-     ...  function source: ReferenceError: Cannot access 'FCMToken' befor ... 
-                                         ^ {"name":"YAMLException","reason":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line","mark":{"name":null,"buffer":"Failed to generate manifest from function source: ReferenceError: Cannot access 'FCMToken' before initialization\n\u0000","position":64,"line":0,"column":64},"message":"incomplete explicit mapping pair; a key node is missed; or followed by a non-tabulated empty line at line 1, column 65:\n     ...  function source: ReferenceError: Cannot access 'FCMToken' befor ... \n                                         ^"}
-[debug] [2022-12-03T17:04:38.717Z] shutdown requested via /__/quitquitquit
-
-[error] ⬢  functions: Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: Cannot access 'FCMToken' before initialization {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load function definition from source: Failed to generate manifest from function source: ReferenceError: Cannot access 'FCMToken' before initialization"}}
-[debug] [2022-12-03T17:04:57.403Z] File /Users/zane/Desktop/WellBell_front-end/functions/index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File /Users/zane/Desktop/WellBell_front-end/functions/index.js changed, reloading triggers"}}
-[debug] [2022-12-03T17:04:58.405Z] Validating nodejs source
-[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
-[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
-[debug] [2022-12-03T17:04:59.060Z] > [functions] package.json contents: {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
-  "scripts": {
-    "lint": "eslint .",
-    "serve": "firebase emulators:start --only functions",
-    "shell": "firebase functions:shell",
-    "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
-  },
-  "engines": {
-    "node": "16"
-  },
-  "main": "index.js",
-  "dependencies": {
-    "firebase-admin": "^10.0.2",
-    "firebase-functions": "^3.18.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.9.0",
-    "eslint-config-google": "^0.14.0",
-    "firebase-functions-test": "^0.2.0"
-  },
-  "private": true
-}
-[debug] [2022-12-03T17:04:59.060Z] Building nodejs source
-[debug] [2022-12-03T17:04:59.060Z] Analyzing nodejs backend spec
-[debug] [2022-12-03T17:04:59.060Z] Could not find functions.yaml. Must use http discovery
-[debug] [2022-12-03T17:04:59.135Z] Serving at port 9005
-
-[debug] [2022-12-03T17:04:59.272Z] Got response from /__/functions.yaml {"endpoints":{"sendHttpPushNotification":{"platform":"gcfv1","httpsTrigger":{},"entryPoint":"sendHttpPushNotification"},"sendListenerPushNotification":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/google.firebase.database/eventTypes/ref.write","eventFilters":{"resource":"projects/_/instances/wellbell-4a40d-default-rtdb/refs/sendMessage/{userId}"},"retry":false},"labels":{},"entryPoint":"sendListenerPushNotification"},"makeUppercase":{"platform":"gcfv1","eventTrigger":{"eventType":"providers/cloud.firestore/eventTypes/document.create","eventFilters":{"resource":"projects/wellbell-4a40d/databases/(default)/documents/messages/{documentId}"},"retry":false},"labels":{},"entryPoint":"makeUppercase"}},"specVersion":"v1alpha1","requiredAPIs":[]}
-[debug] [2022-12-03T17:04:59.275Z] shutdown requested via /__/quitquitquit
-
-[info] ✔  functions: Loaded functions definitions from source: sendHttpPushNotification, sendListenerPushNotification, makeUppercase. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: sendHttpPushNotification, sendListenerPushNotification, makeUppercase."}}
-[debug] [2022-12-03T17:05:06.202Z] [work-queue] {"queueLength":1,"workRunningCount":0}
-[debug] [2022-12-03T17:05:06.202Z] [work-queue] {"queueLength":0,"workRunningCount":1}
-[debug] [2022-12-03T17:05:06.202Z] Accepted request GET /wellbell-4a40d/us-central1/sendHttpPushNotification --> us-central1-sendHttpPushNotification
-[debug] [2022-12-03T17:05:06.205Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
-[debug] [2022-12-03T17:05:06.206Z] [functions] Got req.url=/wellbell-4a40d/us-central1/sendHttpPushNotification, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/wellbell-4a40d/us-central1/sendHttpPushNotification, mapping to path=/"}}
-[debug] [2022-12-03T17:05:06.206Z] [worker-pool] Cleaned up workers for us-central1-sendHttpPushNotification: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-sendHttpPushNotification: 1 --> 0"}}
-[debug] [2022-12-03T17:05:06.208Z] [worker-pool] addWorker(us-central1-sendHttpPushNotification) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-sendHttpPushNotification)"}}
-[debug] [2022-12-03T17:05:06.208Z] [worker-pool] Adding worker with key us-central1-sendHttpPushNotification, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-sendHttpPushNotification, total=1"}}
-[debug] [2022-12-03T17:05:06.549Z] [runtime-status] [4773] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4773] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-admin/lib/index.js\"}"}}
-[debug] [2022-12-03T17:05:06.550Z] [runtime-status] [4773] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4773] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-12-03T17:05:06.550Z] [runtime-status] [4773] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4773] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
-[debug] [2022-12-03T17:05:06.550Z] [runtime-status] [4773] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4773] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-12-03T17:05:06.568Z] [runtime-status] [4773] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4773] Checked functions.config() {\"config\":{}}"}}
-[debug] [2022-12-03T17:05:06.568Z] [runtime-status] [4773] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4773] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js\"}}"}}
-[debug] [2022-12-03T17:05:06.569Z] [runtime-status] [4773] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4773] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-12-03T17:05:06.569Z] [runtime-status] [4773] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4773] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-admin/lib/index.js\"}"}}
-[debug] [2022-12-03T17:05:06.569Z] [runtime-status] [4773] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.24.1","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4773] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.24.1\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-functions/lib/index.js\"}"}}
-[debug] [2022-12-03T17:05:06.569Z] [runtime-status] [4773] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4773] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"/Users/zane/Desktop/WellBell_front-end/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
-[debug] [2022-12-03T17:05:06.570Z] [runtime-status] [4773] initializeApp(DEFAULT) {"storageBucket":"wellbell-4a40d.appspot.com","databaseURL":"https://wellbell-4a40d-default-rtdb.firebaseio.com","projectId":"wellbell-4a40d"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4773] initializeApp(DEFAULT) {\"storageBucket\":\"wellbell-4a40d.appspot.com\",\"databaseURL\":\"https://wellbell-4a40d-default-rtdb.firebaseio.com\",\"projectId\":\"wellbell-4a40d\"}"}}
-[debug] [2022-12-03T17:05:06.573Z] [runtime-status] [4773] Functions runtime initialized. {"cwd":"/Users/zane/Desktop/WellBell_front-end/functions","node_version":"19.2.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4773] Functions runtime initialized. {\"cwd\":\"/Users/zane/Desktop/WellBell_front-end/functions\",\"node_version\":\"19.2.0\"}"}}
-[debug] [2022-12-03T17:05:06.573Z] [runtime-status] [4773] Listening to port: /var/folders/sm/nyhs1sdn6sgdz8t5gxhvc7wc0000gn/T/fire_emu_09bd3509b51b7599.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"[runtime-status] [4773] Listening to port: /var/folders/sm/nyhs1sdn6sgdz8t5gxhvc7wc0000gn/T/fire_emu_09bd3509b51b7599.sock"}}
-[debug] [2022-12-03T17:05:06.617Z] [worker-us-central1-sendHttpPushNotification-448cc6b7-67b5-4b85-b92c-3f83631d86c1]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-sendHttpPushNotification-448cc6b7-67b5-4b85-b92c-3f83631d86c1]: IDLE"}}
-[debug] [2022-12-03T17:05:06.617Z] [worker-pool] submitRequest(triggerId=us-central1-sendHttpPushNotification) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-sendHttpPushNotification)"}}
-[debug] [2022-12-03T17:05:06.617Z] [worker-us-central1-sendHttpPushNotification-448cc6b7-67b5-4b85-b92c-3f83631d86c1]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-sendHttpPushNotification-448cc6b7-67b5-4b85-b92c-3f83631d86c1]: BUSY"}}
-[info] i  functions: Beginning execution of "sendHttpPushNotification" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"Beginning execution of \"sendHttpPushNotification\""}}
-[info] >  Successfully sent message: projects/wellbell-4a40d/messages/70b0b5eb-d67f-4178-b822-83c124d40135 {"user":"Successfully sent message: projects/wellbell-4a40d/messages/70b0b5eb-d67f-4178-b822-83c124d40135","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"\u001b[90m> \u001b[39m Successfully sent message: projects/wellbell-4a40d/messages/70b0b5eb-d67f-4178-b822-83c124d40135"}}
-[warn] ⚠  functions: Your function timed out after ~60s. To configure this timeout, see
-      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"Your function timed out after ~60s. To configure this timeout, see\n      https://firebase.google.com/docs/functions/manage-functions#set_timeout_and_memory_allocation."}}
-[warn] ⚠  Your function was killed because it raised an unhandled error. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-sendHttpPushNotification"},"extension":{},"message":"Your function was killed because it raised an unhandled error."}}
-[debug] [2022-12-03T17:05:11.623Z] [work-queue] {"queueLength":0,"workRunningCount":0}
-[debug] [2022-12-03T17:05:11.623Z] [worker-us-central1-sendHttpPushNotification-448cc6b7-67b5-4b85-b92c-3f83631d86c1]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-sendHttpPushNotification-448cc6b7-67b5-4b85-b92c-3f83631d86c1]: exited"}}
-[debug] [2022-12-03T17:05:11.623Z] [worker-us-central1-sendHttpPushNotification-448cc6b7-67b5-4b85-b92c-3f83631d86c1]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-sendHttpPushNotification-448cc6b7-67b5-4b85-b92c-3f83631d86c1]: FINISHED"}}
