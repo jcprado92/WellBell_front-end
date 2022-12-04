@@ -24,16 +24,22 @@ export const AuthContextProvider = ({ children }) => {
   }
 
   useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
-      setUser(currentUser);
-      //backend can key into uid from current user
-      console.log('User', currentUser)
-    });
-    return () => {
-      unsubscribe();
-    };
+    // THIS IS A VERY POWERFUL FUNCTION
+    // onAuthStateChanged will fire our callback funciton
+    // if ANY change happens on the Firebase backend
+    // regardless of a request from our app
+    // when this function fires IT IS ALWAYS LISTENING 
+    auth.onAuthStateChanged((user) => {
+      
+      if (user) {
+        // if onAuthStateChanged emits a user - set it state
+        const { email, displayName, photoURL, uid } = user;
+        setUser({ email, displayName, photoURL, uid });
+      } else { 
+        setUser(null);
+      }
+    })
   }, []);
-
   return (
     <AuthContext.Provider value={{ googleSignIn, logOut, user }}>
       {children}
